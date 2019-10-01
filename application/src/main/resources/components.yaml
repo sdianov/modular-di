@@ -1,0 +1,4 @@
+
+main.Startup:
+  initialServices+=my.app.BusinessService
+
