@@ -1,15 +1,15 @@
 package my.app;
 
 
-import modular.di.annotations.Component;
-import modular.di.annotations.Inject;
+import modular.di.annotations.DiComponent;
+import modular.di.annotations.DiInject;
 
-@Component
+@DiComponent
 public class BusinessService {
 
     private final DataRepository dataRepository;
 
-    @Inject
+    @DiInject
     public BusinessService(DataRepository dataRepository) {
         this.dataRepository = dataRepository;
     }

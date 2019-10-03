@@ -1,11 +1,11 @@
 package main;
 
-import modular.di.annotations.Component;
+import modular.di.annotations.DiComponent;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+@DiComponent
 public class Startup {
 
     private List<String> initialServices = new ArrayList<>();

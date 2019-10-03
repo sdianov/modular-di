@@ -1,8 +1,8 @@
 package my.app;
 
-import modular.di.annotations.Component;
+import modular.di.annotations.DiComponent;
 
-@Component
+@DiComponent
 public class DataRepository {
 
     public void doWork() {
